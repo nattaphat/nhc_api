@@ -1,0 +1,66 @@
+git@github.com:nattaphat/nhc_api.git
+
+Interface
+	WSTokenController
+		loggerToken
+		checkToken
+
+	OutputManagement
+		Json
+		Xml
+
+
+GeoLocation
+	Province
+	Basin
+	Region
+Sensors
+	Telemetering
+		TeleInfo
+			Province
+			Region
+			Basin
+			Agency
+			ById
+		TeleData
+			24h
+			etc.
+	WaterLevel
+		WaterLevelForcast
+	Dam
+	Weather
+	Bangkok
+		WaterGate
+		Pump
+		WaterLevelStation
+	Radar
+	CCTV
+	Strom
+	Model
+		WRF
+Information
+	Stat
+		Tele
+				Agency
+				Province
+		Risks
+			Landslide
+				Province
+			Safezone
+		Resources
+			Well
+			WaterResource
+		PowerPlant
+			ByProvId
+			All
+		Geography
+			DistrictByAmpoheIDandProvID
+	Info
+		GroundWater
+		Landslide
+		LandSlideSafetyZone
+Other
+	Legend
+		WaterLevel
+		Dam
+		Rainfall
